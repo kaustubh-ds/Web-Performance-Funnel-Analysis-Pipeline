@@ -48,7 +48,6 @@ graph TD
     subgraph "Analytics Engine"
         D -->|SQL Query: Weekly Funnel| E[Drop-Off Analysis]
         D -->|SQL Query: Top Pages| F[Content Performance]
-        D -->|SQL Query: Loyalty| G[User Retention]
     end
 
     style C fill:#4285F4,stroke:#333,stroke-width:2px,color:white
