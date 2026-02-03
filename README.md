@@ -4,9 +4,8 @@
 Architected a permanent data warehouse solution to overcome the limitations of standard Google Analytics 4 (GA4) reporting.
 
 By linking Shopify data streams to Google BigQuery, I established a raw, unsampled data pipeline that allows for:
-* **Historical Data Archival:** Permanent storage of user behavior data beyond the 14-month retention window.
 * **Advanced Funnel Analysis:** SQL-based "drop-off" auditing to identify specific friction points in the checkout flow.
-* **Granular Performance Tracking:** Monitoring the impact of UI updates (like Collection Revamps) on user engagement.
+* **Granular Performance Tracking:** Monitoring the impact of UI updates (like Collection Revamps) on user engagement by identifying top-performing pages.
 
 ## Tech Stack
 * **Source:** Shopify (e-Commerce)
@@ -16,7 +15,6 @@ By linking Shopify data streams to Google BigQuery, I established a raw, unsampl
 
 ## Repository Structure
 * `/queries`: Contains the production SQL scripts used for weekly audits.
-* `/assets`: Screenshots of the architecture and pipeline setup.
 
 ## Key Analytics Modules
 
