@@ -1,7 +1,7 @@
 # Shopify to BigQuery Data Warehouse & Analytics Pipeline
 
 ## Project Overview
-As the Web Development Team Lead, I architected a permanent data warehouse solution to overcome the limitations of standard Google Analytics 4 (GA4) reporting.
+Architected a permanent data warehouse solution to overcome the limitations of standard Google Analytics 4 (GA4) reporting.
 
 By linking Shopify data streams to Google BigQuery, I established a raw, unsampled data pipeline that allows for:
 * **Historical Data Archival:** Permanent storage of user behavior data beyond the 14-month retention window.
