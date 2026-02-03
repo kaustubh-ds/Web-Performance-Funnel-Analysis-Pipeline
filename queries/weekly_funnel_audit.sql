@@ -3,7 +3,7 @@ WITH weekly_events AS (
     user_pseudo_id,
     event_name,
     PARSE_DATE('%Y%m%d', event_date) AS event_dt
-  FROM `ever-lasting-analytics.analytics_264923661.events_*`
+  FROM `cloud-project.analytics_NUMBER.events_*`
   WHERE _TABLE_SUFFIX BETWEEN 
     -- Dynamic Date Logic: Automatically finds last Monday and last Sunday
     FORMAT_DATE('%Y%m%d', DATE_SUB(CURRENT_DATE(), INTERVAL EXTRACT(DAYOFWEEK FROM CURRENT_DATE()) + 5 DAY)) 
