@@ -30,7 +30,7 @@ Unnests complex GA4 event parameters to rank the top 10 URLs by unique visitors.
 * **Business Value:** Validates the visibility of new "Collection" pages and flags broken links (404s) in high-traffic areas.
 
 ## Architecture & Proof of Implementation
-![Architecture Setup](architecture_setup.png)
+![Architecture Setup](setup.png)
 
 ## Data Pipeline Flowchart
 
