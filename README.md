@@ -11,7 +11,6 @@ By linking Shopify data streams to Google BigQuery, I established a raw, unsampl
 * **Source:** Shopify (e-Commerce)
 * **Ingestion:** Google Analytics 4 (GA4) Data Stream
 * **Warehouse:** Google BigQuery (SQL)
-* **Visualization:** Looker Studio / BigQuery Console
 
 ## Repository Structure
 * `/queries`: Contains the production SQL scripts used for weekly audits.
