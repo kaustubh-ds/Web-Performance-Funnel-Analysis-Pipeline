@@ -24,7 +24,7 @@ A comprehensive funnel analysis that tracks unique users across 5 key stages:
 
 ### 2. High-Performance Page Tracking
 Unnests complex GA4 event parameters to rank the top 10 URLs by unique visitors.
-* **Business Value:** Validates the visibility of new "Collection" pages and flags broken links (404s) in high-traffic areas.
+* **Business Value:** Validates the visibility of new collection or landing pages, supporting audits and ongoing upkeep in high-traffic areas.
 
 ## Architecture & Proof of Implementation
 ![Architecture Setup](setup.png)
